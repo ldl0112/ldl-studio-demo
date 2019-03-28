@@ -54,14 +54,21 @@
 		    <version>1.3.7</version>
 		</dependency> -->
 	</dependencies>
-
+<!-- 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+		<finalName>mmall</finalName>
+        <plugins>
+            配置mybatis generator，使项目自动添加所需要的jar包
+            <plugin>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+                <version>1.3.2</version>
+                <configuration>
+                    <verbose>true</verbose>
+                    <overwrite>true</overwrite>
+                </configuration>
+            </plugin>
+       </plugins>
+	</build> -->
 
 </project>
